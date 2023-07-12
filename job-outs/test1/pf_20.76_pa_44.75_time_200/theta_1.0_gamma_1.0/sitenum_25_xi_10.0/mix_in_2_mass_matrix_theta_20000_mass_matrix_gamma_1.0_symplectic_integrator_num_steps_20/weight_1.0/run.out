@@ -1,37 +1,7 @@
 ==========================================
-SLURM_JOB_ID = 10699722
-SLURM_SUBMIT_DIR = /home/pengyu/HMC/HMC_theta_gamma
-SLURM_JOB_NODELIST = mcn26
+SLURM_JOB_ID = 10700380
+SLURM_SUBMIT_DIR = /home/qhaomin/HMC_theta_gamma
+SLURM_JOB_NODELIST = mcn06
 ==========================================
 1.0_1.0_sn_25_xi_10.0_w_1.0_mix_in_2_mix_2_masst_20000_massg_1.0_step_20_test1
-Program starts Wed Jul 12 16:45:24 CDT 2023
-Data successfully loaded from '/home/pengyu/HMC/HMC_theta_gamma/src/data/calibration_25SitesModel.csv'
-[1m[36m
-
-************************************************
-	Optimization Iteration[1/20000]
-************************************************
-[0m
-
-solving the Outer Optimization problem
-
-******************************************************************************
-This program contains Ipopt, a library for large-scale nonlinear optimization.
- Ipopt is released as open source code under the Eclipse Public License (EPL).
-         For more information visit https://github.com/coin-or/Ipopt
-******************************************************************************
-
-      solver  :   t_proc      (avg)   t_wall      (avg)    n_eval
-       nlp_f  |   2.03ms ( 58.03us)   2.06ms ( 58.77us)        35
-       nlp_g  |   8.85ms (252.77us)   8.82ms (251.97us)        35
-  nlp_grad_f  |   4.23ms (117.39us)   4.22ms (117.08us)        36
-  nlp_hess_l  |  53.64ms (  1.58ms)  53.93ms (  1.59ms)        34
-   nlp_jac_g  |  14.92ms (414.47us)  15.05ms (418.11us)        36
-       total  |  49.24 s ( 49.24 s)  49.70 s ( 49.70 s)         1
-Done; time taken 52.104142904281616 seconds...
-
-=====================================================
-Started Sampling
-=====================================================
-
-HMC Iteration [   1/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   2/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   3/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   4/2100]; Accept Prob: 1.00; --> Accepted? True  
+Program starts Wed Jul 12 18:00:38 CDT 2023

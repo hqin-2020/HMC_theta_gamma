@@ -326,7 +326,15 @@ class HMCSampler(Sampler):
 # #                 raise ValueError
 
         if sparse is not None:
-            mass_matrix = sparse.diags(np.block([[mass_matrix[0]*np.ones(int(size/2)),mass_matrix[1]*np.ones(int(size/2))]]),[0])
+            # mass_matrix = sparse.diags(np.block([[mass_matrix[0]*np.ones(int(size/2)),mass_matrix[1]*np.ones(int(size/2))]]),[0])
+            first_block = mass_matrix[0]*np.ones(int(size/2))
+            second_block = mass_matrix[1]*np.ones(int(size/2))
+
+            # modify the first two elements of the first block
+            first_block[0] *= 100
+            first_block[1] *= 100
+
+            mass_matrix = sparse.diags(np.block([[first_block,second_block]]),[0])
         else:
             mass_matrix = np.array([[mass_matrix]])
 

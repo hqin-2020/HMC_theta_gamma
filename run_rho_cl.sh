@@ -7,7 +7,8 @@ gammaarray=(1.0)
 timearray=(200)
 weightarray=(0.1 0.25 1.0)
 mix_in_array=(2)
-mass_matrix_theta_array=(5000 10000 20000)
+mass_matrix_theta_array=(1000 5000 10000 20000)
+# mass_matrix_theta_array=(1000)
 mass_matrix_gamma_array=(1.0)
 symplectic_integrator_num_steps_array=(10 20)
 
@@ -61,7 +62,7 @@ echo "Program starts \$(date)"
 start_time=\$(date +%s)
 
 
-python3 -u /home/pengyu/HMC/HMC_theta_gamma/$hmc_python_name  --pf ${pf} --pa ${pa} --time ${time} --theta ${theta} --gamma ${gamma} --sitenum ${sitenum} --xi ${xi} --weight ${weight} --dataname ${dataname} --mix_in ${mix_in} --mass_matrix_gamma ${mass_matrix_gamma} --mass_matrix_theta ${mass_matrix_theta}  --symplectic_integrator_num_steps ${symplectic_integrator_num_steps} 
+python3 -u /home/qhaomin/HMC_theta_gamma/$hmc_python_name  --pf ${pf} --pa ${pa} --time ${time} --theta ${theta} --gamma ${gamma} --sitenum ${sitenum} --xi ${xi} --weight ${weight} --dataname ${dataname} --mix_in ${mix_in} --mass_matrix_gamma ${mass_matrix_gamma} --mass_matrix_theta ${mass_matrix_theta}  --symplectic_integrator_num_steps ${symplectic_integrator_num_steps} 
 echo "Program ends \$(date)"
 end_time=\$(date +%s)
 elapsed=\$((end_time - start_time))

@@ -1,36 +1,8 @@
 ==========================================
-SLURM_JOB_ID = 10699734
-SLURM_SUBMIT_DIR = /home/pengyu/HMC/HMC_theta_gamma
-SLURM_JOB_NODELIST = mcn27
+SLURM_JOB_ID = 10700396
+SLURM_SUBMIT_DIR = /home/qhaomin/HMC_theta_gamma
+SLURM_JOB_NODELIST = mcn07
 ==========================================
 1.0_1.0_sn_25_xi_20.0_w_0.25_mix_in_2_mix_2_masst_20000_massg_1.0_step_20_test1
-Program starts Wed Jul 12 16:45:27 CDT 2023
-Data successfully loaded from '/home/pengyu/HMC/HMC_theta_gamma/src/data/calibration_25SitesModel.csv'
-[1m[36m
-
-************************************************
-	Optimization Iteration[1/20000]
-************************************************
-[0m
-
-solving the Outer Optimization problem
-
-******************************************************************************
-This program contains Ipopt, a library for large-scale nonlinear optimization.
- Ipopt is released as open source code under the Eclipse Public License (EPL).
-         For more information visit https://github.com/coin-or/Ipopt
-******************************************************************************
-
-      solver  :   t_proc      (avg)   t_wall      (avg)    n_eval
-       nlp_f  |   2.10ms ( 59.89us)   2.10ms ( 59.88us)        35
-       nlp_g  |   9.48ms (270.91us)   9.48ms (270.83us)        35
-  nlp_grad_f  |   4.67ms (129.64us)   4.66ms (129.31us)        36
-  nlp_hess_l  |  58.55ms (  1.72ms)  58.95ms (  1.73ms)        34
-   nlp_jac_g  |  16.32ms (453.25us)  16.47ms (457.42us)        36
-       total  |  54.01 s ( 54.01 s)  54.35 s ( 54.35 s)         1
-Done; time taken 57.23357939720154 seconds...
-
-=====================================================
-Started Sampling
-=====================================================
-
+Program starts Wed Jul 12 18:00:39 CDT 2023
+Data successfully loaded from '/home/qhaomin/HMC_theta_gamma/src/data/calibration_25SitesModel.csv'

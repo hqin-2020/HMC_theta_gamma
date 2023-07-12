@@ -1,43 +1,8 @@
 ==========================================
-SLURM_JOB_ID = 10699692
-SLURM_SUBMIT_DIR = /home/pengyu/HMC/HMC_theta_gamma
+SLURM_JOB_ID = 10700340
+SLURM_SUBMIT_DIR = /home/qhaomin/HMC_theta_gamma
 SLURM_JOB_NODELIST = mcn61
 ==========================================
 1.0_1.0_sn_25_xi_0.1_w_0.1_mix_in_2_mix_2_masst_20000_massg_1.0_step_20_test1
-Program starts Wed Jul 12 16:45:21 CDT 2023
-Data successfully loaded from '/home/pengyu/HMC/HMC_theta_gamma/src/data/calibration_25SitesModel.csv'
-[1m[36m
-
-************************************************
-	Optimization Iteration[1/20000]
-************************************************
-[0m
-
-solving the Outer Optimization problem
-
-******************************************************************************
-This program contains Ipopt, a library for large-scale nonlinear optimization.
- Ipopt is released as open source code under the Eclipse Public License (EPL).
-         For more information visit https://github.com/coin-or/Ipopt
-******************************************************************************
-
-      solver  :   t_proc      (avg)   t_wall      (avg)    n_eval
-       nlp_f  |   1.47ms ( 41.91us)   1.48ms ( 42.15us)        35
-       nlp_g  |   7.48ms (213.69us)   7.42ms (212.12us)        35
-  nlp_grad_f  |   3.34ms ( 92.83us)   3.35ms ( 93.07us)        36
-  nlp_hess_l  |  43.29ms (  1.27ms)  43.50ms (  1.28ms)        34
-   nlp_jac_g  |  11.88ms (329.97us)  11.94ms (331.58us)        36
-       total  |  31.22 s ( 31.22 s)  31.34 s ( 31.34 s)         1
-Done; time taken 33.60857057571411 seconds...
-
-=====================================================
-Started Sampling
-=====================================================
-
-HMC Iteration [   1/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   2/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   3/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   4/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   5/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   6/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   7/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [   8/2100]; Accept Prob: 0.99; --> Accepted? True  HMC Iteration [   9/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  10/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  11/2100]; Accept Prob: 1.00; --> Accepted? True  constraint violated
-HMC Iteration [  12/2100]; Accept Prob: 0.00; --> Accepted? False  constraint violated
-HMC Iteration [  13/2100]; Accept Prob: 0.00; --> Accepted? False  HMC Iteration [  14/2100]; Accept Prob: 0.99; --> Accepted? True  HMC Iteration [  15/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  16/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  17/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  18/2100]; Accept Prob: 1.00; --> Accepted? True  constraint violated
-HMC Iteration [  19/2100]; Accept Prob: 0.00; --> Accepted? False  HMC Iteration [  20/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  21/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  22/2100]; Accept Prob: 1.00; --> Accepted? True  constraint violated
-HMC Iteration [  23/2100]; Accept Prob: 0.00; --> Accepted? False  constraint violated
-HMC Iteration [  24/2100]; Accept Prob: 0.00; --> Accepted? False  HMC Iteration [  25/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  26/2100]; Accept Prob: 1.00; --> Accepted? True  constraint violated
-HMC Iteration [  27/2100]; Accept Prob: 0.00; --> Accepted? False  HMC Iteration [  28/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  29/2100]; Accept Prob: 0.99; --> Accepted? True  HMC Iteration [  30/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  31/2100]; Accept Prob: 0.99; --> Accepted? True  HMC Iteration [  32/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  33/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  34/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  35/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  36/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  37/2100]; Accept Prob: 1.00; --> Accepted? True  HMC Iteration [  38/2100]; Accept Prob: 1.00; --> Accepted? True  
+Program starts Wed Jul 12 18:00:32 CDT 2023
+Data successfully loaded from '/home/qhaomin/HMC_theta_gamma/src/data/calibration_25SitesModel.csv'

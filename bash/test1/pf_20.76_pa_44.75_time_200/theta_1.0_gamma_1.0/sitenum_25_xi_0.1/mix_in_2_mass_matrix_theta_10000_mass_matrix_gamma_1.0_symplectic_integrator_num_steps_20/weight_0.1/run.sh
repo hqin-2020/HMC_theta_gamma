@@ -17,7 +17,7 @@ echo "Program starts $(date)"
 start_time=$(date +%s)
 
 
-python3 -u /home/pengyu/HMC/HMC_theta_gamma/sampler.py  --pf 20.76 --pa 44.75 --time 200 --theta 1.0 --gamma 1.0 --sitenum 25 --xi 0.1 --weight 0.1 --dataname test1 --mix_in 2 --mass_matrix_gamma 1.0 --mass_matrix_theta 10000  --symplectic_integrator_num_steps 20 
+python3 -u /home/qhaomin/HMC_theta_gamma/sampler.py  --pf 20.76 --pa 44.75 --time 200 --theta 1.0 --gamma 1.0 --sitenum 25 --xi 0.1 --weight 0.1 --dataname test1 --mix_in 2 --mass_matrix_gamma 1.0 --mass_matrix_theta 10000  --symplectic_integrator_num_steps 20 
 echo "Program ends $(date)"
 end_time=$(date +%s)
 elapsed=$((end_time - start_time))
