@@ -1,0 +1,23 @@
+==========================================
+SLURM_JOB_ID = 10699719
+SLURM_SUBMIT_DIR = /home/pengyu/HMC/HMC_theta_gamma
+SLURM_JOB_NODELIST = mcn25
+==========================================
+1.0_1.0_sn_25_xi_10.0_w_1.0_mix_in_2_mix_2_masst_10000_massg_1.0_step_10_test1
+Program starts Wed Jul 12 16:45:26 CDT 2023
+Data successfully loaded from '/home/pengyu/HMC/HMC_theta_gamma/src/data/calibration_25SitesModel.csv'
+[1m[36m
+
+************************************************
+	Optimization Iteration[1/20000]
+************************************************
+[0m
+
+solving the Outer Optimization problem
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
