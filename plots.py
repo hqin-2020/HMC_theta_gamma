@@ -189,7 +189,7 @@ for j in range(size):
 
 
 size = results['size']
-
+np.random.seed(256)
 for j in range(size):
 
     num_samples = len(results['collected_ensembles'][len(results['collected_ensembles'])-1][:, j])
