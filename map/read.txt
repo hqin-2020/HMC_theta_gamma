@@ -1,0 +1,2 @@
+you may only need gamma.txt, theta.txt, and dfz_ratio.dat to produce the map
+you can use np.loadtxt('dfz_ratio.dat') and dft= pd.read_csv('theta.txt',header=None) to load the dat file
